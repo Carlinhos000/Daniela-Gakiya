@@ -1,0 +1,45 @@
+/* Semantic tokens for future shadcn/ui components. */
+:root {
+  --background: #FAF8F4;
+  --foreground: #25352B;
+  --card: #FAF8F4;
+  --card-foreground: #25352B;
+  --popover: #FAF8F4;
+  --popover-foreground: #25352B;
+  --primary: #25352B;
+  --primary-foreground: #FAF8F4;
+  --secondary: #F3E8E1;
+  --secondary-foreground: #352431;
+  --muted: #F0EFE7;
+  --muted-foreground: #65665D;
+  --accent: #E6C5BC;
+  --accent-foreground: #17231D;
+  --destructive: #A13438;
+  --border: #D7D7CB;
+  --input: #CCCFC1;
+  --ring: #9D7668;
+  --radius: .5rem;
+}
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-muted: var(--muted);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+}

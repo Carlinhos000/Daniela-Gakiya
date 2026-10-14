@@ -1,0 +1,22 @@
+:root {
+  --olive: #25352B;
+  --olive-dark: #17231D;
+  --nude: #E6C5BC;
+  --rose: #F3E8E1;
+  --cream: #FAF8F4;
+  --plum: #352431;
+  --ink: #242424;
+  --text-muted: #65665D;
+  --line: #D7D7CB;
+  --error: #A13438;
+  --serif: 'Cormorant Garamond', Georgia, serif;
+  --sans: 'DM Sans', Arial, sans-serif;
+  --ease: cubic-bezier(.22,.61,.36,1);
+  font-family: var(--sans);
+  color: var(--olive);
+  background: var(--cream);
+  font-synthesis: none;
+  font-optical-sizing: auto;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}

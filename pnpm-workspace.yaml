@@ -1,0 +1,7 @@
+allowBuilds:
+  esbuild: true
+nodeLinker: hoisted
+virtualStoreType: project
+packageImportMethod: copy
+storeDir: node_modules/.pnpm-store
+strictPeerDependencies: false
